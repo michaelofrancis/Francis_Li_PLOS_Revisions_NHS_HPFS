@@ -28,6 +28,6 @@ plink2 \
 --pfile #imputedchr"$i" \
 --make-pgen \
 --extract mfi_keepsnps_chr"$i".txt \
---out plink-filtered-chr"$i"
+--out filtered_plink2_pfile_imputation/plink-filtered-chr"$i"
 
 done
