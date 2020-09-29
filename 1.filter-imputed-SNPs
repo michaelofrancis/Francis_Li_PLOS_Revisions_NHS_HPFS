@@ -27,7 +27,7 @@ for i in ${chr[*]}
 plink2 \
 --pfile #imputedchr"$i" \
 --make-pgen \
---extract /work/kylab/mike/UKB/quality-scores/mfi/mfi_keepsnps_chr"$i".txt \
+--extract mfi_keepsnps_chr"$i".txt \
 --out plink-filtered-chr"$i"
 
 done
